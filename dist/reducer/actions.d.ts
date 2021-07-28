@@ -1,0 +1,17 @@
+import { CAFAction, Response, UserType, Method, AddFields } from '../types';
+export declare function setUserA(user: UserType | null): CAFAction;
+export declare function setLocationA(url: string): CAFAction;
+export declare function setAddFieldsA(additionalData: AddFields): CAFAction;
+export declare function addTagA(tag: string): CAFAction;
+export declare function removeTagA(tag: string): CAFAction;
+export declare function beginProfileA(tag: string): CAFAction;
+export declare function endEmptyProfileA(): CAFAction;
+export declare function beginRenderA(tag: string): CAFAction;
+export declare function endRenderA(tag: string): CAFAction;
+export declare function resetRenderStateA(): CAFAction;
+export declare function addRequestA(response: Response, time: number, method?: Method, requestSize?: number): CAFAction;
+export declare function setPushApiA(api: string): CAFAction;
+export declare function setPushTimerA(milliseconds: number): CAFAction;
+export declare function setPushStoreRequestTimerA(milliseconds: number): CAFAction;
+export declare function setPushStoreProfileTimerA(milliseconds: number): CAFAction;
+export declare function setLimitRequestsA(limitRequests: number): CAFAction;

@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-typescript"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "linebreak-style": 0,
+    "eol-last": "off",
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "no-case-declarations": "off",
+    "@typescript-eslint/dot-notation": "off",
+    "@typescript-eslint/no-implied-eval": "off",
+    "@typescript-eslint/no-throw-literal": "off",
+    "@typescript-eslint/naming-convention": "off"
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  }
+}
